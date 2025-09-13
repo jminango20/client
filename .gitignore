@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Variáveis de ambiente e arquivos de configuração local
+.env
+.env.*
+!env.example
+
+# Build e distribuição
+dist/
+build/
+
+# Outros arquivos de build
+*.log
+
+# Arquivos do sistema e temporários
+.DS_Store
+Thumbs.db
